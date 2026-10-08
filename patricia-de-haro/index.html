@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Patricia de Haro · Hospedaje</title>
+<meta name="description" content="Solicita tu habitación en Las Brisas Ixtapa para la celebración de Patricia de Haro · 12 al 14 de febrero de 2027.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#453E48">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Patricia de Haro · 60 años y 40 de casados">
+<meta property="og:description" content="Solicita tu habitación en Las Brisas Ixtapa · 12 al 14 de febrero de 2027">
+<meta property="og:image" content="https://dvsdaniel52-dot.github.io/td-eventos/patricia-de-haro/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://dvsdaniel52-dot.github.io/td-eventos/patricia-de-haro/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/icon-32.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#453E48;          /* morado TD (PANTONE) */
+    --ink-soft:#6F6773;
+    --ink-faint:#9A939D;
+    --gris:#F1F1F2;         /* gris TD (PANTONE) */
+    --paper:#F7F5F1;
+    --card:#FFFFFF;
+    --line:rgba(69,62,72,.18);
+    --line-strong:rgba(69,62,72,.42);
+    --err:#9B3B3B;
+    --band:76px;
+    color-scheme: light;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Montserrat",system-ui,sans-serif; font-weight:400; font-size:15px; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ── Banda de marca a la izquierda ── */
+  .band{
+    position:fixed; inset:0 auto 0 0; width:var(--band); z-index:5;
+    background:var(--ink); color:#fff;
+    display:flex; flex-direction:column; align-items:center; justify-content:space-between;
+    padding:28px 0;
+  }
+  .band img{width:40px; height:auto; opacity:.95}
+  .band .vt{
+    writing-mode:vertical-rl; transform:rotate(180deg);
+    font-size:11px; letter-spacing:.55em; font-weight:400; opacity:.9; white-space:nowrap;
+  }
+  .band .dot{width:5px;height:5px;border-radius:50%;background:#fff;opacity:.85}
+
+  .page{margin-left:var(--band); min-height:100vh; display:flex; flex-direction:column}
+  .wrap{width:100%; max-width:640px; margin:0 auto; padding:0 24px}
+
+  /* ── Encabezado (la festejada) ── */
+  header.hero{text-align:center; padding:72px 0 40px}
+  .eyebrow{
+    font-size:11px; letter-spacing:.38em; text-transform:uppercase; color:var(--ink-soft); font-weight:500;
+    margin:0 0 26px;
+  }
+  .orn{display:flex; align-items:center; justify-content:center; gap:14px; color:var(--ink-faint); margin:0 auto}
+  .orn::before,.orn::after{content:""; height:1px; width:64px; background:var(--line-strong)}
+  .orn i{width:5px;height:5px;border-radius:50%;background:var(--ink);display:block}
+  h1{
+    font-family:"Cormorant Garamond",Georgia,serif; font-style:italic; font-weight:400;
+    font-size:clamp(46px, 13vw, 88px); line-height:.98; letter-spacing:-.005em;
+    margin:26px 0 30px;
+  }
+  .crest{display:flex; justify-content:center; align-items:stretch; gap:0; margin:0 auto 34px}
+  .crest div{padding:0 26px; text-align:center}
+  .crest div + div{border-left:1px solid var(--line-strong)}
+  .crest b{
+    display:block; font-family:"Cormorant Garamond",Georgia,serif; font-weight:500;
+    font-size:46px; line-height:1; letter-spacing:.02em;
+  }
+  .crest span{display:block; margin-top:8px; font-size:10.5px; letter-spacing:.3em; text-transform:uppercase; color:var(--ink-soft)}
+  .when{
+    font-family:"Cormorant Garamond",Georgia,serif; font-size:23px; line-height:1.35; margin:0;
+  }
+  .where{margin:6px 0 0; font-size:11px; letter-spacing:.34em; text-transform:uppercase; color:var(--ink-soft)}
+
+  .intro{
+    text-align:center; max-width:470px; margin:36px auto 0; color:var(--ink-soft);
+    font-family:"Cormorant Garamond",Georgia,serif; font-size:20px; line-height:1.5;
+  }
+
+  /* ── Tarjeta del formulario ── */
+  .card{
+    background:var(--card); position:relative;
+    border:1px solid var(--line);
+    padding:44px 34px 36px; margin:8px 0 56px;
+  }
+  .card::before{ /* doble filete, estilo papelería */
+    content:""; position:absolute; inset:7px; border:1px solid var(--line); pointer-events:none;
+  }
+  .card h2{
+    text-align:center; font-family:"Cormorant Garamond",Georgia,serif; font-weight:400; font-style:italic;
+    font-size:32px; line-height:1.15; margin:0 0 6px;
+  }
+  .card .sub{text-align:center; font-size:12.5px; color:var(--ink-soft); margin:0 0 30px}
+
+  fieldset{border:0; margin:0 0 30px; padding:0; min-width:0}
+  legend{
+    padding:0; margin:0 0 18px; width:100%;
+    font-size:11px; letter-spacing:.32em; text-transform:uppercase; font-weight:600; color:var(--ink);
+    display:flex; align-items:center; gap:12px;
+  }
+  legend::after{content:""; flex:1; height:1px; background:var(--line)}
+  legend em{font-family:"Cormorant Garamond",Georgia,serif; font-style:normal; font-weight:500; font-size:16px; letter-spacing:.08em}
+
+  .field{margin:0 0 20px}
+  .field label, .lbl{
+    display:block; font-size:10.5px; letter-spacing:.24em; text-transform:uppercase; color:var(--ink-soft);
+    margin:0 0 4px; font-weight:500;
+  }
+  .opt{letter-spacing:.04em; text-transform:none; color:var(--ink-faint); font-weight:400}
+  input[type=text], input[type=tel], input[type=email], input[type=date], textarea{
+    width:100%; font:inherit; font-size:16px; color:var(--ink);
+    background:transparent; border:0; border-bottom:1px solid var(--line-strong); border-radius:0;
+    padding:8px 0 9px; outline:none; -webkit-appearance:none; appearance:none;
+    transition:border-color .2s;
+  }
+  input[type=date]{min-height:42px}
+  textarea{resize:vertical; min-height:84px; border:1px solid var(--line-strong); padding:10px 12px; background:#fff}
+  input:focus, textarea:focus{border-color:var(--ink)}
+  input::placeholder, textarea::placeholder{color:#B4AEB6}
+  .row{display:grid; grid-template-columns:1fr 1fr; gap:0 22px}
+
+  /* Contadores */
+  .steppers{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:4px 0 20px}
+  .stepper{background:var(--gris); padding:12px 8px 10px; text-align:center}
+  .stepper .lbl{margin-bottom:8px; letter-spacing:.18em; font-size:10px}
+  .stepper .ctl{display:flex; align-items:center; justify-content:center; gap:6px}
+  .stepper button{
+    width:34px; height:34px; border:1px solid var(--line-strong); background:#fff; color:var(--ink);
+    font:inherit; font-size:18px; line-height:1; cursor:pointer; border-radius:0; padding:0;
+    display:grid; place-items:center;
+  }
+  .stepper button:active{background:var(--ink); color:#fff}
+  .stepper output{
+    min-width:30px; font-family:"Cormorant Garamond",Georgia,serif; font-size:30px; line-height:1; font-weight:500;
+  }
+  .nights{
+    text-align:center; font-family:"Cormorant Garamond",Georgia,serif; font-style:italic;
+    font-size:18px; color:var(--ink-soft); margin:-6px 0 18px;
+  }
+
+  /* Opciones tipo tarjeta */
+  .choices{display:grid; grid-template-columns:repeat(3,1fr); gap:10px}
+  .choice{position:relative}
+  .choice input{position:absolute; opacity:0; inset:0; margin:0; cursor:pointer}
+  .choice span{
+    display:block; text-align:center; padding:13px 6px; border:1px solid var(--line-strong);
+    font-size:12px; letter-spacing:.06em; transition:all .15s; background:#fff; height:100%;
+  }
+  .choice input:checked + span{background:var(--ink); color:#fff; border-color:var(--ink)}
+  .choice input:focus-visible + span{outline:2px solid var(--ink); outline-offset:2px}
+
+  .checks{display:grid; gap:10px}
+  .field .check{display:flex; gap:12px; align-items:flex-start; cursor:pointer; margin:0;
+    font-size:14px; line-height:1.45; letter-spacing:0; text-transform:none; color:var(--ink); font-weight:400}
+  .check input{
+    -webkit-appearance:none; appearance:none; flex:0 0 18px; width:18px; height:18px; margin:2px 0 0;
+    border:1px solid var(--line-strong); background:#fff; display:grid; place-items:center; cursor:pointer;
+  }
+  .check input:checked{background:var(--ink); border-color:var(--ink)}
+  .check input:checked::after{content:""; width:5px; height:9px; border:solid #fff; border-width:0 1.5px 1.5px 0; transform:rotate(45deg) translate(-1px,-1px)}
+
+  .hidden{display:none !important}
+  .err{color:var(--err); font-size:12px; margin:6px 0 0; min-height:0}
+  .field.bad input{border-color:var(--err)}
+
+  .submit{
+    width:100%; border:0; border-radius:0; cursor:pointer;
+    background:var(--ink); color:#fff; font:inherit; font-size:12px; font-weight:500;
+    letter-spacing:.34em; text-transform:uppercase; padding:19px 10px; margin-top:6px;
+    transition:opacity .2s;
+  }
+  .submit:hover{opacity:.92}
+  .submit[disabled]{opacity:.55; cursor:wait}
+  .fine{font-size:11.5px; color:var(--ink-faint); text-align:center; margin:16px 0 0; line-height:1.55}
+
+  /* Confirmación */
+  .done{text-align:center; padding:20px 0 6px}
+  .done .seal{
+    width:74px; height:74px; margin:0 auto 22px; border:1px solid var(--ink); border-radius:50%;
+    display:grid; place-items:center; position:relative;
+  }
+  .done .seal::before{content:""; position:absolute; inset:4px; border:1px solid var(--line-strong); border-radius:50%}
+  .done .seal img{width:34px}
+  .done p{max-width:400px; margin:0 auto 12px; color:var(--ink-soft)}
+  .done .again{
+    background:none; border:0; border-bottom:1px solid var(--line-strong); font:inherit; font-size:11px;
+    letter-spacing:.24em; text-transform:uppercase; color:var(--ink); cursor:pointer; padding:4px 0; margin-top:14px;
+  }
+  .fallback{background:var(--gris); padding:16px; margin-top:16px; font-size:13px; text-align:center}
+  .fallback a{color:var(--ink); font-weight:600}
+
+  /* ── Pie de página TD ── */
+  footer{margin-top:auto; border-top:1px solid var(--line); background:#fff; text-align:center; padding:40px 0 calc(36px + env(safe-area-inset-bottom))}
+  footer img{width:150px; height:auto; display:block; margin:0 auto 18px}
+  footer p{margin:0; font-size:12px; line-height:1.9; color:var(--ink-soft)}
+  footer a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line)}
+  footer .links{margin-top:10px; letter-spacing:.06em}
+  footer .sep{margin:0 8px; color:var(--ink-faint)}
+
+  /* ── Celular ── */
+  @media (max-width:720px){
+    :root{--band:26px}
+    .band{padding:14px 0}
+    .band img{display:none}
+    .band .vt{font-size:8.5px; letter-spacing:.5em}
+    .wrap{padding:0 16px}
+    header.hero{padding:52px 0 32px}
+    .eyebrow{font-size:10px; letter-spacing:.3em; margin-bottom:20px}
+    .orn::before,.orn::after{width:44px}
+    .crest div{padding:0 18px}
+    .crest b{font-size:40px}
+    .crest span{font-size:9.5px; letter-spacing:.22em}
+    .when{font-size:21px}
+    .where{font-size:10px; letter-spacing:.28em}
+    .intro{font-size:18.5px; margin-top:28px}
+    .card{padding:36px 18px 28px; margin-bottom:40px}
+    .card::before{inset:5px}
+    .card h2{font-size:28px}
+    .row{grid-template-columns:1fr}
+    .steppers{grid-template-columns:1fr; gap:0; background:var(--gris)}
+    .stepper{display:flex; align-items:center; justify-content:space-between; padding:10px 12px; text-align:left}
+    .stepper + .stepper{border-top:1px solid #fff}
+    .stepper .lbl{margin:0; letter-spacing:.2em; font-size:10.5px}
+    .stepper .ctl{gap:10px}
+    .stepper output{font-size:26px; min-width:26px; text-align:center}
+    .choices{gap:8px}
+    .choice span{font-size:11.5px; padding:12px 4px}
+    footer img{width:130px}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{animation:rise .9s ease both}
+    .reveal.d2{animation-delay:.12s} .reveal.d3{animation-delay:.24s}
+    @keyframes rise{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+  }
+</style>
+</head>
+<body>
+
+<aside class="band" aria-hidden="true">
+  <img src="img/mono-punto-blanco.png" alt="">
+  <span class="vt">TRAVEL DESIGN</span>
+  <span class="dot"></span>
+</aside>
+
+<div class="page">
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow reveal">Hospedaje para la celebración de</p>
+      <div class="orn reveal"><i></i></div>
+      <h1 class="reveal d2">Patricia<br>de Haro</h1>
+      <div class="crest reveal d2">
+        <div><b>60</b><span>años</span></div>
+        <div><b>40</b><span>de casados</span></div>
+      </div>
+      <p class="when reveal d3">12 al 14 de febrero de 2027</p>
+      <p class="where reveal d3">Las Brisas · Ixtapa</p>
+      <p class="intro reveal d3">Para que solo te ocupes de celebrar, Travel Design coordina el hospedaje de los invitados en Las Brisas Ixtapa. Déjanos tus datos y te contactaremos con tarifa y disponibilidad.</p>
+    </header>
+
+    <section class="card" id="card">
+      <form id="f" novalidate>
+        <h2>Solicitud de habitación</h2>
+        <p class="sub">Toma menos de un minuto</p>
+
+        <fieldset>
+          <legend><em>I</em> Tus datos</legend>
+          <div class="field" data-f="nombre">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" required placeholder="Nombre y apellido">
+            <p class="err"></p>
+          </div>
+          <div class="row">
+            <div class="field" data-f="tel">
+              <label for="tel">WhatsApp</label>
+              <input id="tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" required placeholder="55 1234 5678">
+              <p class="err"></p>
+            </div>
+            <div class="field" data-f="email">
+              <label for="email">Correo</label>
+              <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required placeholder="tu@correo.com">
+              <p class="err"></p>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><em>II</em> Tu estancia</legend>
+          <div class="row">
+            <div class="field" data-f="llegada">
+              <label for="llegada">Llegada</label>
+              <input id="llegada" name="llegada" type="date" value="2027-02-12" min="2027-02-05" max="2027-02-20" required>
+              <p class="err"></p>
+            </div>
+            <div class="field" data-f="salida">
+              <label for="salida">Salida</label>
+              <input id="salida" name="salida" type="date" value="2027-02-14" min="2027-02-06" max="2027-02-21" required>
+              <p class="err"></p>
+            </div>
+          </div>
+          <p class="nights" id="nights">2 noches · viernes a domingo</p>
+
+          <div class="steppers">
+            <div class="stepper" data-k="hab" data-min="1" data-max="6">
+              <span class="lbl">Habitaciones</span>
+              <div class="ctl"><button type="button" data-d="-1" aria-label="Menos habitaciones">−</button><output>1</output><button type="button" data-d="1" aria-label="Más habitaciones">+</button></div>
+            </div>
+            <div class="stepper" data-k="adultos" data-min="1" data-max="12">
+              <span class="lbl">Adultos</span>
+              <div class="ctl"><button type="button" data-d="-1" aria-label="Menos adultos">−</button><output>2</output><button type="button" data-d="1" aria-label="Más adultos">+</button></div>
+            </div>
+            <div class="stepper" data-k="menores" data-min="0" data-max="8">
+              <span class="lbl">Menores</span>
+              <div class="ctl"><button type="button" data-d="-1" aria-label="Menos menores">−</button><output>0</output><button type="button" data-d="1" aria-label="Más menores">+</button></div>
+            </div>
+          </div>
+          <div class="field hidden" id="edadesBox" data-f="edades">
+            <label for="edades">Edades de los menores</label>
+            <input id="edades" name="edades" type="text" placeholder="Ej. 8 y 12 años">
+            <p class="err"></p>
+          </div>
+
+          <div class="field">
+            <span class="lbl">Tipo de cama</span>
+            <div class="choices" role="radiogroup" aria-label="Tipo de cama">
+              <label class="choice"><input type="radio" name="cama" value="King (1 cama)" checked><span>King</span></label>
+              <label class="choice"><input type="radio" name="cama" value="Dos camas"><span>Dos camas</span></label>
+              <label class="choice"><input type="radio" name="cama" value="Indistinto"><span>Indistinto</span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><em>III</em> Detalles</legend>
+          <div class="checks field">
+            <label class="check"><input type="checkbox" name="vuelo"> Me interesa cotizar vuelo a Ixtapa–Zihuatanejo</label>
+            <label class="check"><input type="checkbox" name="traslado"> Me interesa traslado aeropuerto ↔ hotel</label>
+          </div>
+          <div class="field">
+            <label for="comentarios">Comentarios <span class="opt">(opcional)</span></label>
+            <textarea id="comentarios" name="comentarios" placeholder="Con quién viajas, peticiones especiales, horario de llegada…"></textarea>
+          </div>
+          <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off">
+        </fieldset>
+
+        <button class="submit" id="btn" type="submit">Enviar solicitud</button>
+        <p class="fine">Esta es una solicitud, no una reservación.<br>Tarifa y disponibilidad se confirman directamente con Travel Design.</p>
+        <div class="fallback hidden" id="fallback"></div>
+      </form>
+
+      <div class="done hidden" id="done" aria-live="polite">
+        <div class="seal"><img src="img/mono-punto.png" alt=""></div>
+        <h2>Gracias<span id="doneName"></span></h2>
+        <p>Recibimos tu solicitud. Nuestro equipo de eventos te contactará por WhatsApp o correo para confirmar tarifa y disponibilidad en Las Brisas Ixtapa.</p>
+        <p style="font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:19px">Nos vemos en Ixtapa.</p>
+        <button class="again" type="button" id="again">Solicitar otra habitación</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <img src="img/horizontal.png" alt="Travel Design">
+      <p>Prol. Paseo de la Reforma 799, Yama Bosques Of. 411<br>Santa Fe, Álvaro Obregón · 01219 CDMX</p>
+      <p class="links">
+        <a href="mailto:eventos@traveldesign.com.mx">eventos@traveldesign.com.mx</a><br>
+        <a href="https://traveldesign.com.mx" target="_blank" rel="noopener">traveldesign.com.mx</a><span class="sep">·</span><a href="https://www.instagram.com/traveldesignmx" target="_blank" rel="noopener">@traveldesignmx</a>
+      </p>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  // Cada solicitud llega a Itzel (eventos1) con copia a eventos@. Servicio gratuito FormSubmit.
+  var ENDPOINT = 'https://formsubmit.co/ajax/eventos1@traveldesign.com.mx';
+  var CC = 'eventos@traveldesign.com.mx';
+  var EVENTO = 'Patricia de Haro · 60 años y 40 de casados (12–14 feb 2027)';
+  var HOTEL = 'Las Brisas Ixtapa';
+
+  var f = document.getElementById('f'), btn = document.getElementById('btn');
+  var lleg = document.getElementById('llegada'), sal = document.getElementById('salida');
+  var counts = {hab:1, adultos:2, menores:0};
+
+  // Contadores + / −
+  document.querySelectorAll('.stepper').forEach(function(s){
+    var k = s.dataset.k, min = +s.dataset.min, max = +s.dataset.max, out = s.querySelector('output');
+    s.querySelectorAll('button').forEach(function(b){
+      b.addEventListener('click', function(){
+        counts[k] = Math.max(min, Math.min(max, counts[k] + (+b.dataset.d)));
+        out.textContent = counts[k];
+        if (k === 'menores') document.getElementById('edadesBox').classList.toggle('hidden', counts.menores === 0);
+      });
+    });
+  });
+
+  function d(v){ return new Date(v + 'T12:00:00'); }
+  function largo(v){
+    return d(v).toLocaleDateString('es-MX', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  }
+  function noches(){
+    if (!lleg.value || !sal.value) return 0;
+    return Math.round((d(sal.value) - d(lleg.value)) / 864e5);
+  }
+  function pintaNoches(){
+    var n = noches(), el = document.getElementById('nights');
+    if (n <= 0) { el.textContent = 'Revisa las fechas'; return; }
+    var dia = function(v){ return d(v).toLocaleDateString('es-MX', {weekday:'long'}); };
+    el.textContent = n + (n === 1 ? ' noche' : ' noches') + ' · ' + dia(lleg.value) + ' a ' + dia(sal.value);
+  }
+  lleg.addEventListener('change', pintaNoches);
+  sal.addEventListener('change', pintaNoches);
+
+  function marca(name, msg){
+    var box = f.querySelector('[data-f="' + name + '"]');
+    if (!box) return;
+    box.classList.toggle('bad', !!msg);
+    box.querySelector('.err').textContent = msg || '';
+  }
+  function valida(){
+    var ok = true, v;
+    v = f.nombre.value.trim();
+    marca('nombre', v.split(/\s+/).length < 2 ? 'Escribe nombre y apellido' : ''); if (v.split(/\s+/).length < 2) ok = false;
+    v = f.tel.value.replace(/\D/g, '');
+    marca('tel', v.length < 10 ? 'Escribe tu WhatsApp a 10 dígitos' : ''); if (v.length < 10) ok = false;
+    v = f.email.value.trim();
+    var em = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+    marca('email', em ? '' : 'Revisa tu correo'); if (!em) ok = false;
+    var n = noches();
+    marca('salida', n <= 0 ? 'La salida debe ser después de la llegada' : ''); if (n <= 0) ok = false;
+    marca('llegada', lleg.value ? '' : 'Elige tu fecha de llegada'); if (!lleg.value) ok = false;
+    if (counts.menores > 0 && !f.edades.value.trim()) { marca('edades', 'Indica las edades'); ok = false; } else marca('edades', '');
+    if (!ok) { var first = f.querySelector('.bad input'); if (first) first.focus(); }
+    return ok;
+  }
+
+  function datos(){
+    var nombre = f.nombre.value.trim();
+    var cama = (f.querySelector('input[name=cama]:checked') || {}).value || '';
+    return {
+      '_subject': 'Solicitud de habitación · Patricia de Haro · ' + nombre,
+      '_cc': CC,
+      '_template': 'table',
+      '_captcha': 'false',
+      '_replyto': f.email.value.trim(),
+      '_honey': f._honey.value,
+      'Nombre': nombre,
+      'WhatsApp': f.tel.value.trim(),
+      'Correo': f.email.value.trim(),
+      'Llegada': largo(lleg.value),
+      'Salida': largo(sal.value),
+      'Noches': String(noches()),
+      'Habitaciones': String(counts.hab),
+      'Adultos': String(counts.adultos),
+      'Menores': String(counts.menores) + (counts.menores ? ' (' + f.edades.value.trim() + ')' : ''),
+      'Tipo de cama': cama,
+      'Cotizar vuelo': f.vuelo.checked ? 'Sí' : 'No',
+      'Traslado aeropuerto': f.traslado.checked ? 'Sí' : 'No',
+      'Comentarios': f.comentarios.value.trim() || '—',
+      'Evento': EVENTO,
+      'Hotel': HOTEL,
+      'Enviado': new Date().toLocaleString('es-MX', {timeZone:'America/Mexico_City'})
+    };
+  }
+
+  function respaldoCorreo(p){
+    var cuerpo = Object.keys(p).filter(function(k){ return k.charAt(0) !== '_'; })
+      .map(function(k){ return k + ': ' + p[k]; }).join('\n');
+    var href = 'mailto:eventos1@traveldesign.com.mx?cc=' + encodeURIComponent(CC) +
+      '&subject=' + encodeURIComponent(p._subject) + '&body=' + encodeURIComponent(cuerpo);
+    var fb = document.getElementById('fallback');
+    fb.innerHTML = 'No pudimos enviar tu solicitud en este momento.<br><a id="mailfb">Envíala por correo con un toque</a> o escríbenos a eventos@traveldesign.com.mx';
+    fb.querySelector('#mailfb').setAttribute('href', href);
+    fb.classList.remove('hidden');
+  }
+
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('fallback').classList.add('hidden');
+    if (!valida()) return;
+    var p = datos();
+    btn.disabled = true; btn.textContent = 'Enviando…';
+    fetch(ENDPOINT, {
+      method:'POST',
+      headers:{'Content-Type':'application/json', 'Accept':'application/json'},
+      body: JSON.stringify(p)
+    }).then(function(r){ return r.json().catch(function(){ return {}; }); })
+      .then(function(j){
+        if (String(j.success) === 'true') {
+          document.getElementById('doneName').textContent = ', ' + p.Nombre.split(/\s+/)[0];
+          f.classList.add('hidden');
+          document.getElementById('done').classList.remove('hidden');
+          document.getElementById('card').scrollIntoView({behavior:'smooth', block:'start'});
+        } else { respaldoCorreo(p); }
+      })
+      .catch(function(){ respaldoCorreo(p); })
+      .then(function(){ btn.disabled = false; btn.textContent = 'Enviar solicitud'; });
+  });
+
+  document.getElementById('again').addEventListener('click', function(){
+    ['nombre','tel','email','edades','comentarios'].forEach(function(n){ f[n].value = ''; });
+    f.vuelo.checked = f.traslado.checked = false;
+    document.getElementById('done').classList.add('hidden');
+    f.classList.remove('hidden');
+    f.nombre.focus();
+  });
+})();
+</script>
+</body>
+</html>
